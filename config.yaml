@@ -1,0 +1,22 @@
+﻿username: "your_username"
+password: "your_password"
+mnt_config:
+  source: "arcgis"
+  local_path: "data/mnt/chamonix.tif"
+  bbox:
+    "xmin": 6.8  # Longitude minimale
+    "ymin": 45.8 # Latitude minimale
+    "xmax": 7.2  # Longitude maximale
+    "ymax": 46.2  # Latitude maximale
+
+slope_config: 
+  source: "local"
+  local_path: "data/slope/"
+  slope_output_name: "slope_chamonix"
+hillshade_config: 
+  source: "local"
+  local_path: "data/hillshade/"
+  hillshade_output_name: "hillshade_chamonix"
+map_config:
+  center_location: [45.9237, 6.8694]
+  zoom_level: 12
