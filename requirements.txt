@@ -2,3 +2,7 @@
 pydantic
 python-dotenv
 arcgis
+pandas
+torch 
+scikit-learn
+matplotlib
